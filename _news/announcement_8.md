@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-I held an [invited
+I will give an [invited
 talk](https://www.africa.engineering.cmu.edu/events/2025/03/26-upanzi-seminar.html)
 at the [CMU Africa Upanzi
 Network's](https://www.africa.engineering.cmu.edu/research/upanzi/index.html)
