@@ -7,6 +7,6 @@ related_posts: false
 
 I have joined the [Computer
 Engineering group](https://www.informatik.hu-berlin.de/de/forschung/gebiete/ti)
-at the HU Berlin as a doctoral research associate under the supervision of
-[Florian
-Tschorsch](https://tu-dresden.de/ing/informatik/sya/ps/chair/tschorsch).
+at the HU Berlin as a doctoral research associate with [Florian
+Tschorsch](https://tu-dresden.de/ing/informatik/sya/ps/chair/tschorsch) as my
+advisor.

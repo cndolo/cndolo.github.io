@@ -20,7 +20,7 @@ nav_order: 5
 
 <b>Winter 24/25</b>
 - Operating Systems and Security (BA) 🇩🇪
-- Privacy & Securty seminar (MA) 🇬🇧
+- Privacy & Security seminar (MA) 🇬🇧
 
 <b>Summer 24</b>
 - Network Security (MA) 🇬🇧
