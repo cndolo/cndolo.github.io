@@ -13,6 +13,11 @@ nav_order: 5
 - MA: 1
 - Various student projects: 7
 
+<b>Winter 24/25</b>
+
+- Privacy & Security seminar (MA) 🇬🇧
+- Operating Systems and Security (BA) 🇩🇪
+
 <b>Summer 25</b>
 
 - Privacy & Security seminar (MA) 🇬🇧
