@@ -7,13 +7,17 @@ nav: true
 nav_order: 5
 ---
 
-<b>Supervised theses (completed as of 06/2025)</b>
+<b>Supervised theses (completed as of 04/2026)</b>
 
-- BA: 2
+- BA: 3
 - MA: 1
-- Various student projects: 7
+- Various student projects: 8
 
-<b>Winter 24/25</b>
+<b>Summer 26</b>
+
+- Privacy & Security seminar (MA) 🇬🇧
+
+<b>Winter 25/26</b>
 
 - Privacy & Security seminar (MA) 🇬🇧
 - Operating Systems and Security (BA) 🇩🇪
