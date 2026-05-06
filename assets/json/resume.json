@@ -71,6 +71,11 @@
   ],
   "publications": [
     {
+        "name": "Network-level Side-channel Attacks in the Lightning Network",
+        "releaseDate": "2026",
+        "url": "https://doi.org/10.1145/3810239"
+    },
+    {
         "name": "Payment Censorship in the Lightning Network Despite Encrypted Communication",
         "releaseDate": "2024",
         "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12"
