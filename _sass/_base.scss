@@ -201,7 +201,11 @@ ul.task-list input[type="checkbox"] {
     font-family: monospace;
 
     p {
-      display: inline-block;
+      //display: inline-block;
+      font-size: 0.78rem;
+      color: #aaa;
+      margin: 0;
+      line-height: 1.6;
       margin: 0;
     }
   }
@@ -221,7 +225,11 @@ ul.task-list input[type="checkbox"] {
 
     .address {
       p {
-        display: block;
+      font-size: 0.78rem;
+      color: #aaa;
+      margin: 0;
+      line-height: 1.6;
+      margin: 0;
       }
     }
   }
@@ -288,7 +296,23 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     color: var(--global-text-color);
+
+    &::before {
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #ddd;
+      flex-shrink: 0;
+      display: inline-block;
+    }
+    &.active::before {
+      background: $custom-accent;
+    }
 
     &:hover {
       color: var(--global-hover-color);
@@ -380,27 +404,54 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  //text-align: center;
+
+  //.contact-icons {
+  //  font-size: 4rem;
+
+  //  a {
+  //    i::before {
+  //      color: var(--global-text-color);
+  //      transition-property: all 0.2s ease-in-out;
+  //    }
+
+  //    &:hover {
+  //      i::before {
+  //        color: var(--global-theme-color);
+  //      }
+  //    }
+  //  }
+  //}
+
+  //.contact-note {
+  //  font-size: 0.8rem;
+  //}
+  border-top: 0.5px solid #f0f0f0;
+  padding: 0.6rem 1rem;
 
   .contact-icons {
-    font-size: 4rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 
     a {
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
-      }
+      font-size: 3.5rem;
+      color: #bbb;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+      transition: color 0.15s;
 
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
+      &:hover { color: $custom-accent; }
+
+      span.social-label {
+        font-size: 0.65rem;
+        font-family: monospace;
+        color: inherit;
       }
     }
-  }
-
-  .contact-note {
-    font-size: 0.8rem;
   }
 }
 
@@ -885,6 +936,7 @@ html.transition *:after {
     a {
       color: var(--global-text-color-light);
       text-decoration: none;
+  text-align: justify;
 
       &:hover {
         color: var(--global-theme-color);
@@ -1303,4 +1355,52 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.news {
+  table {
+    td {
+      font-size: 0.8rem;
+      color: #888;
+
+      &.news-date {
+        white-space: nowrap;
+        color: $custom-accent-dark;
+        font-weight: 500;
+      }
+    }
+
+    // First row is most recent — make it slightly larger
+    tr:first-child td {
+      font-size: 1.1em;
+      color: var(--global-text-color);
+
+      &.news-date {
+        color: $custom-accent-dark;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.news table tbody tr th {
+  font-weight: normal !important;
+}
+
+.news table tbody tr:first-child th {
+  font-weight: 500 !important;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+
+  a {
+    color: #bbb;
+    font-size: 1.5rem;
+    transition: color 0.15s;
+    &:hover { color: $custom-accent; }
+  }
 }

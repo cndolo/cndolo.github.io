@@ -45,7 +45,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" data-keywords="{{ entry.keywords }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -247,6 +247,15 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.keywords %}
+  <div class="paper-tags" style="margin-top: 6px;">
+    {% assign kws = entry.keywords | split: ',' %}
+    {% for kw in kws %}
+      {% assign k = kw | strip %}
+      <span class="tag-pill tag-{{ k }}">{{ k }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

@@ -1,5 +1,27 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
+    <div class="footer-socials">
+      {% if site.email %}
+        <a href="mailto:{{ site.email }}" aria-label="email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      {% if site.orcid_id %}
+        <a href="https://orcid.org/{{ site.orcid_id }}" aria-label="orcid" target="_blank">
+          <i class="ai ai-orcid"></i>
+        </a>
+      {% endif %}
+      {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" aria-label="github" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      {% endif %}
+      {% if site.linkedin_username %}
+        <a href="https://linkedin.com/in/{{ site.linkedin }}" aria-label="linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      {% endif %}
+      {% endif %}
+    </div>
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
@@ -29,6 +51,28 @@
       {% endif %}
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+    <div class="footer-socials">
+      {% if site.email %}
+        <a href="mailto:{{ site.email }}" aria-label="email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      {% if site.orcid_id %}
+        <a href="https://orcid.org/{{ site.orcid_id }}" aria-label="orcid" target="_blank">
+          <i class="ai ai-orcid"></i>
+        </a>
+      {% endif %}
+      {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" aria-label="github" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      {% endif %}
+      {% if site.linkedin_username %}
+        <a href="https://linkedin.com/in/{{ site.linkedin }}" aria-label="linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      {% endif %}
       {% endif %}
     </div>
   </footer>

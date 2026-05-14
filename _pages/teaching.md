@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: A list of courses I have been involved in.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <b>Supervised theses (completed as of 04/2026)</b>
