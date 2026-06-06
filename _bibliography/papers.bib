@@ -1,3 +1,36 @@
+@misc{ndolo2026security,
+    title={Security Analysis of Bitcoin's V2 Transport Protocol: Exploiting
+           Design Implications for Sustained Eclipse and Downgrade Attacks},
+    author={Charmaine Ndolo and Florian Tschorsch},
+    year={2026},
+    eprint={2605.19715},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR},
+    url={https://arxiv.org/abs/2605.19715},
+    abstract = {Bitcoin recently introduced a new protocol for the encryption
+                of peer-to-peer (P2P) communication. The protocol, known as V2
+                P2P transport, represents a big step towards securing the
+                overlay network against various previously-known attack
+                vectors. Based on an analysis of V2 P2P transport, this work
+                examines the current viability of said attacks and concludes
+                that while they are now remediated, alternative attacks and
+                paths to similar objectives exist. The identified shortcomings
+                are conceptual (and not implementation bugs) and even
+                applicable to other P2P networks. We show how a network-level
+                attacker can identify application messages using the length of
+                TCP payloads, can eclipse a target node by taking advantage of
+                how encrypted communication channels work and can downgrade all
+                of a node's connections to the unencrypted protocol by using
+                the mechanisms designed for compatibility. We validate our
+                contributions using a combination of network measurements,
+                emulations and simulations. Finally, we propose a series of
+                short-term and long-term countermeasures towards securing
+                Bitcoin's P2P network. To the best of our knowledge, we are the
+                first to study Bitcoin's security under V2 P2P transport.},
+    abbr = {PREPRINT},
+    keywords    = {blockchain, networks, security}
+}
+
 @article{ndolo2026network,
     author    = {Ndolo, Charmaine and Tschorsch, Florian},
     title     = {Network-level Side-channel Attacks in the Lightning Network},
