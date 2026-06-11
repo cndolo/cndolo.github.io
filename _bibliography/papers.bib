@@ -28,6 +28,7 @@
                 Bitcoin's P2P network. To the best of our knowledge, we are the
                 first to study Bitcoin's security under V2 P2P transport.},
     abbr = {PREPRINT},
+    pdf         = {https://arxiv.org/abs/2605.19715},
     keywords    = {blockchain, networks, security}
 }
 
@@ -42,10 +43,11 @@
     doi       = {10.1145/3810239},
     abstract  = {The Lightning network (LN) offers a solution to Bitcoin’s scalability limitations by providing fast and private off-chain payments. In addition to the LN’s long known application-level centralisation, recent work has highlighted its centralisation at the network level which makes it vulnerable to attacks on privacy by malicious actors. In this work, we explore the LN’s susceptibility to further attacks by a network-level actor such as a malicious autonomous system. We show that a network-level adversary can identify and interfere with all payments routed via their network by just examining the packet headers. Our results indicate that it is viable to accurately identify LN messages despite the fact that all inter-peer communication is end-to-end encrypted. While this can likely be used to achieve various adversarial objectives, we show how it can be exploited by an adversary to impose payment censorship and induce channel congestion. Additionally, we describe how a network-level observer can determine a node’s role in a payment path based on timing, direction of flow and message type, and demonstrate the approach’s feasibility using experiments in a live instance of the network. Simulations of the attack on a snapshot of the Lightning mainnet suggest that the impact of a congestion attack varies from mild to potentially dramatic depending on the adversary and type of payments that are censored. On the other hand, they show that the impact of a congestion attack, under the assumption that the adversary is not able to jam all channels, is less extreme. We analyse countermeasures the network can implement and come to the conclusion that an adequate solution involves constant message sizes as well as dummy traffic.},
     journal   = {ACM Trans. Internet Technol.},
-    month     = apr,
+    month     = jun,
     abbr      = {TOIT},
     selected    = {true},
     bibtex_show = {true},
+    pdf         = {https://dl.acm.org/doi/10.1145/3810239},
     keywords    = {blockchain, networks, privacy, security, resilience}
 }
 
