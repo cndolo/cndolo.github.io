@@ -7,11 +7,11 @@ nav: true
 nav_order: 6
 ---
 
-<b>Supervised theses (completed as of 04/2026)</b>
+<b>Supervised theses (completed as of 06/2026)</b>
 
-- BA: 3
+- BA: 4
 - MA: 1
-- Various student projects: 8
+- Various student projects: 9
 
 <b>Summer 26</b>
 
