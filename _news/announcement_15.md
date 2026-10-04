@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 Our paper "Exploiting the Lightning Network for Cross-layer Deanonymisation of
-Bitcoin Nodes" has been accepted to [ACSAC 2026](https://www.acsac.org/2026/) in
-Los Angeles.
+Bitcoin Nodes" has been accepted to [ACSAC
+2026](https://www.acsac.org/2026/program/papers/) in Los Angeles.
