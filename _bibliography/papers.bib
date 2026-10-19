@@ -1,3 +1,40 @@
+@misc{ndolo2026exploiting,
+    author       = {Charmaine Ndolo and Nepomuk Linsenbarth Bosse and Florian Tschorsch},
+    title        = {Exploiting the Lightning Network for Cross-layer Deanonymisation of Bitcoin Nodes},
+    year         = {2026},
+    pdf          = {acsac2026.pdf},
+    howpublished = {to appear in the IEEE Annual Computer Security Applications Conference, December 2026},
+    abstract     = {While the network-level security of Bitcoin and the
+                    Lightning network (LN) have each received a fair amount of
+                    attention, their relation is yet to be taken into consideration.
+                    The limited body of cross-layer research focuses on privacy
+                    but overlooks the peer-to-peer (P2P) layers and how it can
+                    potentially support cross-layer deanonymisation. This work
+                    bridges the two lines of research and presents the first cross-
+                    layer, network-level study of Bitcoin and the LN. We show
+                    how co-location of a Bitcoin and LN node can be exploited by
+                    a network adversary, e.g., an autonomous system, to support
+                    deanonymisation of the Bitcoin node. We introduce an attack
+                    that is capable of linking an IP address to a Bitcoin address and
+                    a real-world entity. It uses information gathered from the LN’s
+                    P2P network to find a relevant address in the blockchain and
+                    the alias announced in the LN to match the node to a real-world
+                    entity. Our measurements of the live networks and emulation-
+                    based evaluation demonstrate the practicality and merit of
+                    the attack. Among others, we find that institutional entities
+                    are more likely to be fully deanonymised than individuals.
+                    We discuss different countermeasures that can be taken at
+                    different levels to reduce the viability of this and similar
+                    attacks. We examine the impact of using non-default ports
+                    for P2P communication and show that encrypted traffic can
+                    still be detected reliably. This suggests that both networks need
+                    traffic shaping mechanisms to be resistant to traffic analysis.},
+    keywords     = {blockchain, networks, security, privacy},
+    selected     = {true},
+    bibtex_show  = {true},
+    abbr         = {ACSAC},
+}
+
 @misc{ndolo2026security,
     title={Security Analysis of Bitcoin's V2 Transport Protocol: Exploiting
            Design Implications for Sustained Eclipse and Downgrade Attacks},
@@ -45,7 +82,7 @@
     journal   = {ACM Trans. Internet Technol.},
     month     = jun,
     abbr      = {TOIT},
-    selected    = {true},
+    selected    = {false},
     bibtex_show = {true},
     pdf         = {https://dl.acm.org/doi/10.1145/3810239},
     keywords    = {blockchain, networks, privacy, security, resilience}
