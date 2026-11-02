@@ -71,6 +71,11 @@
   ],
   "publications": [
     {
+        "name": "Exploiting the Lightning Network for Cross-layer Deanonymisation of Bitcoin Nodes",
+        "releaseDate": "2026",
+        "url": ""
+    },
+    {
         "name": "Network-level Side-channel Attacks in the Lightning Network",
         "releaseDate": "2026",
         "url": "https://doi.org/10.1145/3810239"
