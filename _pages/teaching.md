@@ -7,9 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-<b>Supervised theses (completed as of 06/2026)</b>
+<b>Supervised theses (completed as of 10/2026)</b>
 
-- Bachelor's (BS): 4
+- Bachelor's (BS): 6
 - Master's (MS): 1
 - Various student projects: 9
 
